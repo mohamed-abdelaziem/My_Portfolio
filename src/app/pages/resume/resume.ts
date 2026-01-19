@@ -17,8 +17,8 @@ export class Resume implements OnInit, OnDestroy {
 
   downloadResume() {
     const link = document.createElement('a');
-    link.href = '/pdf/My_Resume.pdf';
-    link.download = 'My_Resume.pdf';
+    link.href = './pdf/cv.pdf';
+    link.download = 'cv.pdf';
     link.click();
 
     // set user downloaded CV once and clear interval
